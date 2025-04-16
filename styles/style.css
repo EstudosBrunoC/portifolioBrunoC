@@ -34,15 +34,15 @@ section {
 }
 
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    widht: 100%;
+    background-color: var(--snd-bg-color);
     padding: 2rem 9%;
-    background-color: var(--bg-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     z-index: 1000;
 }
 
@@ -136,23 +136,6 @@ span {
    font-size: 1.6rem;
 }
 
-.btn {
-    display: inline-block;
-    padding: 1rem 2.8rem;
-    background-color: var(--main-color);
-    border-radius: 4rem;
-    box-shadow: 0 0 1rem var(--main-color);
-    font-size: 1.6rem;
-    color: var(--bg-color);
-    letter-spacing: 0.1rem;
-    font-weight: 600;
-    transiticon: .5s ease;
-}
-
-.btn:hover {
-    box-shadow: none;
-}
-
 .sobre{
     display: flex;
     justify-content: center;
@@ -187,10 +170,43 @@ span {
 }
 
 .img-projeto1 {
+    display: flex;
+    gap: 2rem; /* Espaçamento entre as imagens */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Alinha verticalmente */
+}
+
+.img-projeto1 .img-item {
+    width: 25rem;
+    height: 15rem;
+    border: 0.1rem solid var(--main-color);
+}
+
+
+.img-projeto2 {
     width: 50rem;
     height: 30rem;
     border: 0.1rem solid var(--main-color);
 }
+
+.img-projeto3 {
+    width: 50rem;
+    height: 30rem;
+    border: 0.1rem solid var(--main-color);
+}
+
+.img-projeto4{
+    width: 50rem;
+    height: 30rem;
+    border: 0.1rem solid var(--main-color);
+}
+
+.img-projeto5 {
+    width: 50rem;
+    height: 30rem;
+    border: 0.1rem solid var(--main-color);
+} 
+
 
 .projetos h2 {
     margin-bottom: 5rem; 
