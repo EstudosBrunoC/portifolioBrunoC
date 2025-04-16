@@ -185,3 +185,52 @@ span {
     font-size: 1.6rem;
     margin-top: 2rem 0 3rem;
 }
+
+.img-projeto1 {
+    width: 50rem;
+    height: 30rem;
+    border: 0.1rem solid var(--main-color);
+}
+
+.projetos h2 {
+    margin-bottom: 5rem; 
+}
+
+.projetos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.projetos-container .projetos-box {
+   flex: 1 1 30rem;
+   background: var(--snd-bg-color);
+   padding: 3rem 2rem 4rem;
+   border-radius: 2rem;
+   text-align: center;
+   border: 0.2rem solid var(--bg-color);
+   transition: 0.5s ease;
+}
+
+.projetos-container .projetos-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+.projetos-box i {
+    font-size: 7rem;
+    color: var(--main-color);
+    margin-bottom: 2rem;
+}
+
+.projetos-box h3 {
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+.projetos-box p {
+    font-size: 1.6rem;
+    margin-bottom: 1rem 0 3rem;
+}
+
