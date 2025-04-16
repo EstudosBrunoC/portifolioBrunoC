@@ -359,3 +359,88 @@ span {
     color: var(--snb-bg-color);
 }
 
+@media (max-widht: 1200px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-widht: 1200px) {
+    .header {
+        padding: 2rem 3%;
+    }
+
+    section {
+        padding: 10rem 3%;
+    }
+
+    .projetos {
+        padding: 7rem;
+    }
+
+    .contato {
+        min-height: auto;
+    }
+
+    .footer {
+        padding: 2rem 3%;
+    }
+}
+
+@media (max-widht: 768px) {
+    #menu-icon {
+        display: block;
+    }
+
+    .inicio{
+        flex-direction: column;
+    }
+
+    .inicio-conteudo h3 {
+        font-size: 2.6rem;
+    }
+
+    .inicio-conteudo h1 {
+        font-size: 5rem;
+    }
+
+    .inicio-conteudo {
+        order: 2;
+    }
+
+    .foto-perfil {
+        width: 70vw;
+        marign-top: 4rem;
+    }
+
+    .sobre {
+        flex-direction: column;
+    }
+
+    .foto-sobre {
+        width: 90vw;
+        marign-top: 4rem;
+    }
+
+    .projetos h2 {
+        marign-bottom: 3rem;
+    }
+}
+
+@media (max-widht: 617px) {
+    .foto-perfil {
+        width: 80vw;
+        marign-top: 8rem;
+    }
+
+    .foto-sobre {
+        width: 100vw;
+        marign-top: 4rem;
+    }
+}
+
+@media (max-widht: 450px) {
+    html {
+        font-size: 50%;
+    }
+}
