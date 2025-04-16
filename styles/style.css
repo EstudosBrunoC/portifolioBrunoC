@@ -137,3 +137,34 @@ span {
 .btn:hover {
     box-shadow: none;
 }
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: var(--snd-bg-color);
+}
+
+.foto-sobre{
+    width: 100%;
+}
+
+.cabecalho {
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.sobre-conteudo h2 {
+    text-align: left;
+    line-height: 1.2;
+}
+
+.sobre-conteudo h3 {
+    font-size: 2.6rem;
+}
+
+.sobre-conteudo p {
+    font-size: 1.6rem;
+    margin-top: 2rem 0 3rem;
+}
