@@ -21,7 +21,7 @@ JavaScript – interatividade da página;
 O site foi desenvolvido com design responsivo, garantindo uma boa experiência de navegação em dispositivos móveis, tablets e desktops.
 
 ## Como acessar
-Você pode acessar o portfólio diretamente clicando aqui #link.
+Você pode acessar o portfólio diretamente clicando aqui https://estudosbrunoc.github.io/portifolioBrunoC/
 
 ## Contato
 Fique à vontade para entrar em contato comigo através dos links ou formulário disponíveis no portfólio!
