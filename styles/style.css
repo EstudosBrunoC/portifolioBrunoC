@@ -359,13 +359,13 @@ span {
     color: var(--snb-bg-color);
 }
 
-@media (max-widht: 1200px) {
+@media (max-width: 1200px) {
     html {
         font-size: 55%;
     }
 }
 
-@media (max-widht: 1200px) {
+@media (max-width: 1200px) {
     .header {
         padding: 2rem 3%;
     }
@@ -387,7 +387,7 @@ span {
     }
 }
 
-@media (max-widht: 768px) {
+@media (max-width: 768px) {
     #menu-icon {
         display: block;
     }
@@ -410,7 +410,7 @@ span {
 
     .foto-perfil {
         width: 70vw;
-        marign-top: 4rem;
+        margin-top: 4rem;
     }
 
     .sobre {
@@ -419,28 +419,59 @@ span {
 
     .foto-sobre {
         width: 90vw;
-        marign-top: 4rem;
+        margin-top: 4rem;
     }
 
     .projetos h2 {
-        marign-bottom: 3rem;
+        margin-bottom: 3rem;
     }
 }
 
-@media (max-widht: 617px) {
+@media (max-width: 617px) {
     .foto-perfil {
         width: 80vw;
-        marign-top: 8rem;
+        margin-top: 8rem;
     }
 
     .foto-sobre {
         width: 100vw;
-        marign-top: 4rem;
+        margin-top: 4rem;
     }
 }
 
-@media (max-widht: 450px) {
+@media (max-width: 450px) {
     html {
         font-size: 50%;
+    }
+
+    .navbar a {
+        font-size: 1.4rem;
+        margin-left: 2rem;
+    }
+
+    .btn {
+        font-size: 1.4rem;
+        padding: 1rem 2rem;
+    }
+
+    .contato-box h2 {
+        font-size: 2.4rem;
+    }
+
+    .contato-item {
+        font-size: 1.4rem;
+    }
+
+    .contato-item i {
+        font-size: 1.8rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-iconTop {
+        margin-top: 1rem;
     }
 }
