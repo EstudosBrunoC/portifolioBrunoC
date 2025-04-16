@@ -30,7 +30,6 @@ body {
 }
 
 section {
-    min-height: 100vh;
     padding: 10rem 9% 2rem;
 }
 
@@ -118,3 +117,23 @@ span {
     }
 }
 
+.inicio-conteudo p {
+   font-size: 1.6rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--bg-color);
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transiticon: .5s ease;
+}
+
+.btn:hover {
+    box-shadow: none;
+}
